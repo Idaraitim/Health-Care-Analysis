@@ -1,4 +1,4 @@
-# 🏥 Patient Healthcare Dashboard
+#  Patient Healthcare Dashboard
 
 **Analyst:** Idara Itim  
 **Tool Used:** Microsoft Power BI  
@@ -6,13 +6,13 @@
 
 ---
 
-## 📊 Project Summary
+##  Project Summary
 
 This Power BI dashboard project analyzes patient healthcare data to uncover trends in demographics, treatment adherence, length of stay (LOS), and care satisfaction. The dashboard integrates custom tooltips and interactivity to deliver insights into patient experience and hospital performance.
 
 ---
 
-## 🧹 Data Preparation in Power Query
+##  Data Preparation in Power Query
 
 Data was cleaned and transformed using Power BI’s Power Query Editor:
 
@@ -23,7 +23,7 @@ Data was cleaned and transformed using Power BI’s Power Query Editor:
   - **Numeric:** Age, LOS, Care Satisfaction
   - **Text:** Diagnosis, Gender, Discharge Destination
 
-### ➕ New Column Created:
+###  New Column Created:
 
 **Age Group (via DAX):**
 ```DAX
@@ -41,7 +41,7 @@ SWITCH(
 
 ---
 
-## 📐 Measures and KPIs (DAX)
+##  Measures and KPIs (DAX)
 
 - **Follow-Up Rate**
 ```DAX
@@ -140,7 +140,7 @@ A mini insight page appears on hover, showing:
 
 ---
 
-## 💡 Insights Derived from Dashboard
+##  Insights Derived from Dashboard
 
 - **High LOS Regions:** South East and North Central have the highest average Length of Stay (LOS), indicating resource strain or slower treatment turnover.
 - **Patient Satisfaction:** Most patients rate care between 2.8 and 3.2 stars out of 5, with visible room for experience improvement.
@@ -150,7 +150,7 @@ A mini insight page appears on hover, showing:
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 
 Based on the data analysis and visualizations presented in the dashboard, the following actions are recommended to improve patient outcomes and operational efficiency:
 
